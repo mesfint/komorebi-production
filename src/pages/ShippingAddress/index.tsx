@@ -1,6 +1,5 @@
 import Text from "../../components/Text";
 import Button from "../../components/Button";
-import { toast } from "react-hot-toast";
 import { useForm } from "react-hook-form";
 import clsx from "clsx";
 import Icon from "../../components/icons";
@@ -10,12 +9,12 @@ import { ICartItem } from "../../types";
 import axios from "../../api/axios";
 import { useNavigate } from "react-router-dom";
 
-type FormData = {
-  name: string;
-  email: string;
-  city: string;
-  address: string;
-};
+// type FormData = {
+//   name: string;
+//   email: string;
+//   city: string;
+//   address: string;
+// };
 
 type OrderDetailsType = {
   user: {
@@ -32,7 +31,7 @@ type OrderDetailsType = {
 function ShippingAddress() {
   const {
     register,
-    setValue,
+    // setValue,
     handleSubmit,
     getValues,
     formState: { errors },

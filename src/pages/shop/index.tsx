@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import Button from "../../components/Button";
 import Text from "../../components/Text";
-import Icon from "../../components/icons";
 import { toast } from "react-hot-toast";
 import { Link, useNavigate } from "react-router-dom";
 import { IProduct, RawCartItem } from "../../types";
@@ -29,9 +28,9 @@ function Shop() {
     return () => {};
   }, []);
 
-  const addToBag = () => {
-    navigate("/shop");
-  };
+  // const addToBag = () => {
+  //   navigate("/shop");
+  // };
 
   return (
     <>

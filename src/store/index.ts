@@ -30,7 +30,6 @@ const useGlobalStore = create<IGlobalStore>()(
       addItemToCart: (newProductItem: RawCartItem) => {
         const { cart } = get();
         let cartItems: ICartItem[] = [];
-        let updatedCartItem: ICartItem;
         // Find existing product in the cart
         const existingProduct = cart.find(
           (_cartItem) => _cartItem.product === newProductItem.product
