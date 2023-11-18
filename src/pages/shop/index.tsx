@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Button from "../../components/Button";
 import Text from "../../components/Text";
 import { toast } from "react-hot-toast";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { IProduct, RawCartItem } from "../../types";
 import api from "../../api/axios";
 import useGlobalStore from "../../store";
@@ -10,7 +10,6 @@ import useGlobalStore from "../../store";
 function Shop() {
   const [products, setProducts] = useState<IProduct[]>([]);
 
-  const navigate = useNavigate();
   const { addItemToCart } = useGlobalStore();
 
   const getProducts = async () => {
