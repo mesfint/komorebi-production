@@ -45,12 +45,7 @@ const variants: Record<Variant, string> = {
   "caption-four": " text-base text-xs leading-[18px] text-raisin-black",
 };
 
-function Text({
-  children,
-  variant = "body-one",
-  className,
-  ...props
-}: TextProps) {
+function Text({ children, variant = "body-one", className }: TextProps) {
   return (
     <>
       <p className={clsx(variants[variant], className)}>{children}</p>

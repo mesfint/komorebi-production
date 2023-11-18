@@ -20,9 +20,9 @@ type IconName =
   | "Logo";
 
 //If anything in the left handside like this CartIcon: <PlusIcon/> is the Icon w/c is a JSX element
-type IconsType = {
-  [K in IconName]: JSX.Element;
-};
+// type IconsType = {
+//   [K in IconName]: JSX.Element;
+// };
 
 //const variants: Record<Variant, string> = {
 
