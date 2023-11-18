@@ -1,5 +1,3 @@
-import React from "react";
-
 function ArrowSmallRightIcon() {
   return (
     // stroke="currentColor" => will inherit the current color of the

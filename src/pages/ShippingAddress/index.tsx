@@ -1,4 +1,3 @@
-import React from "react";
 import Text from "../../components/Text";
 import Button from "../../components/Button";
 import { toast } from "react-hot-toast";
@@ -231,7 +230,6 @@ function ShippingAddress() {
             <Text variant="subheading-three">$ {cartTotal}</Text>
           </div>
         </div>
-        
       </div>
     </section>
   );
