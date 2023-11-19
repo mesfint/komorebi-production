@@ -27,10 +27,6 @@ function Shop() {
     return () => {};
   }, []);
 
-  // const addToBag = () => {
-  //   navigate("/shop");
-  // };
-
   return (
     <>
       <section className="relative w-full h-[768px] flex items-end">
