@@ -23,4 +23,5 @@
            2.Import and initialize the package inside your project
 
            3.Deploy your changes and visit your site
-
+### splitbee.io 
+- vercel is using this product
