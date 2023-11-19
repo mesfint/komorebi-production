@@ -9,7 +9,7 @@ import {
 import { StripePaymentElementOptions } from "@stripe/stripe-js";
 import Button from "./Button";
 
-//everything inthis file come from Stripe docs CheckoutForm.js
+//everything in this file come from Stripe docs CheckoutForm.js
 //https://stripe.com/docs/payments/quickstart
 
 export default function CheckoutForm() {
