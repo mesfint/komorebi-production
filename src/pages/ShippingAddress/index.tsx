@@ -42,7 +42,8 @@ function ShippingAddress() {
 
   const navigate = useNavigate();
 
-  const onSubmit = handleSubmit(async (data) => {
+  const onSubmit = handleSubmit(async () => {
+    //  const onSubmit = handleSubmit(async (data) => {
     try {
       const { address, city, email, name } = getValues();
       const orderDetails: OrderDetailsType = {
